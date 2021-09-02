@@ -1,0 +1,6 @@
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    "longUrl": "https://www.google.com/search?q=CAT&sxsrf=AOaemvK17V8Tade7A5pv06e-zQL9NGWtOw:1630613458339&source=lnms&tbm=isch&sa=X&ved=2ahUKEwigwsy_jOHyAhXJhOAKHVNvBrYQ_AUoAXoECAEQAw&biw=1920&bih=887"
+}

@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://sednasystems:X&GPneLWJD94iMD**LKcsHRjy@cluster0.b06mg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+  }
