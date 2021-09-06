@@ -23,11 +23,11 @@ This is a url shortner service that takes a long url from the user and make it s
 
 ## High Level Service Architecture
 
-![](./architecture/detailed_arch.png)
+![](./architecture/Highlevel.png)
 
 ## Detailed Service Architecture
 
-![](./architecture/Detailed.png)
+![](./architecture/detailed_arch.png)
 
 ## Backend Database - MongoDB 
 
