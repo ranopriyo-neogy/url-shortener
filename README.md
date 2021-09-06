@@ -27,7 +27,7 @@ This is a url shortner service that takes a long url from the user and make it s
 
 ## Detailed Service Architecture
 
-![](./architecture/detailed_arch.png)
+![](./architecture/detailed.png)
 
 ## Backend Database - MongoDB 
 
