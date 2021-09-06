@@ -5,7 +5,7 @@ This is a url shortner service that takes a long url from the user and make it s
 ## How to use
 
 - Clone the repository using `git clone https://github.com/ranopriyo-neogy/url-shortener.git`
-- Get into the project folder using `cd url_shortner_service`
+- Get into the project folder using `cd url-shortener`
 - Make sure you have docker installed and running in your system. 
 - Run `docker-compose up`
 - From any REST Client hit - `http://localhost:5000/api/url/shorten` with `POST` operation and pass a long url in below JSON format:
