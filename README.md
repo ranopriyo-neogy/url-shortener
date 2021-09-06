@@ -1,6 +1,6 @@
 # Overview
 
-This is a url shortner service that takes a long url from the user and makes it shorter. The backend used for this service is MongoDB Atlas. The service takes two types of request. The first request is generating the short url based on long url input and stores it in MongoDB database. The second request is for routing the short url to the associated long url stored in the database.
+This is a url shortener service that takes a long url from the user and makes it shorter. The backend used for this service is MongoDB Atlas. The service takes two types of requests. The first request is generating the short url based on long url input and stores it in MongoDB database. The second request is for routing the short url to the associated long url stored in the database.
 
 ## How to use
 
