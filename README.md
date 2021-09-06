@@ -23,7 +23,7 @@ This is a url shortner service that takes a long url from the user and make it s
 
 ## High Level Service Architecture
 
-![](./architecture/Highlevel.png)
+![](./architecture/detailed_arch.png)
 
 ## Detailed Service Architecture
 
