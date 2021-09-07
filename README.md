@@ -27,7 +27,7 @@ This is a url shortener service that takes a long url from the user and makes it
 
 ## Detailed Service Architecture
 
-![](./architecture/detailed.png)
+![](./architecture/detailed-image.png)
 
 ## Scalability
 
