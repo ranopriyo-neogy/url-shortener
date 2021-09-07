@@ -1,6 +1,6 @@
-POST http://localhost:5000/api/url/shorten
+POST http://localhost:4000/api/url/shorten
 Content-Type: application/json
 
 {
-    "longUrl": "https://www.google.com/search?q=birds&rlz=1C5CHFA_enCA911CA911&sxsrf=AOaemvKhy77f8NLT134EHpoU6xNjuIkHag:1630949693480&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC2YCJ8eryAhWxVN8KHaFLDO4Q_AUoAXoECAIQAw&biw=1440&bih=707"
+    "longUrl": "https://www.google.com/search?q=parrot&rlz=1C5CHFA_enCA911CA911&sxsrf=AOaemvL_dbWB6pdyMPzFjdrYqUPGPDLWgQ:1631037537860&source=lnms&tbm=isch&sa=X&ved=2ahUKEwixhbyouO3yAhUlnOAKHZjcDPYQ_AUoAXoECAIQAw&biw=1440&bih=707"
 }
