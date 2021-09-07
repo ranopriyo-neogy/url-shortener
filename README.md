@@ -7,8 +7,8 @@ This is a url shortener service that takes a long url from the user and makes it
 - Clone the repository using `git clone https://github.com/ranopriyo-neogy/url-shortener.git`
 - Get into the project folder using `cd url-shortener`
 - Make sure you have docker installed and running in your system. 
-- Run `docker-compose up`
-- From any REST Client hit - `http://localhost:5000/api/url/shorten` with `POST` operation and pass a long url in below JSON format:
+- Run `docker-compose up` 
+- From any REST Client hit - `http://localhost:4000/api/url/shorten` with `POST` operation and pass a long url in below JSON format:
 ```
 {
     "longUrl": "Enter your long URL Here"
@@ -28,6 +28,17 @@ This is a url shortener service that takes a long url from the user and makes it
 ## Detailed Service Architecture
 
 ![](./architecture/detailed.png)
+
+## Scalability
+
+The service can be scaled horizontally by adding more containers using docker command `docker-compose up --scale app=10`
+This command will spin 10 docker containers in which the app will be running and in case one container stops working the load will be balanced in other containers.
+
+![](./architecture/containers.png)
+
+## Load Balancer
+
+The load balancing is done by Docker’s embedded DNS server, which will use a round robin implementation to resolve the DNS requests based on the service name and distribute them to the Docker containers. I have used NGINX service that listens at port 4000 for requests and forwards them to `url-shortener_app`. 
 
 ## Backend Database - MongoDB 
 
