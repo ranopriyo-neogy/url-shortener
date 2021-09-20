@@ -50,6 +50,3 @@ For testing purpose I have provided my application connection string in this pro
 
 ![](./architecture/mongodb_cost.png)
 
-## Developer
-
-- [Ranopriyo Neogy](https://github.com/ranopriyo-neogy)
