@@ -50,3 +50,9 @@ For testing purpose I have provided my application connection string in this pro
 
 ![](./architecture/mongodb_cost.png)
 
+
+### Author
+
+Service setup - Blog by Brad Traversy  
+Docker/ Nginx - Ranopriyo Neogy 
+
